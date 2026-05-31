@@ -1,16 +1,65 @@
-# React + Vite
+# 🛡️ TrustShield AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered scam detection and trust verification system that protects users from fraudulent links, messages, and payment requests in real time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Overview
+With the rise of online fraud, phishing attacks, and fake payment links, users often struggle to verify what is safe and what is not.  
+**TrustShield AI** solves this problem by analyzing user inputs (URLs or messages) and generating a risk score with safety recommendations before any action is taken.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Problem Statement
+Digital scams are becoming more advanced and harder to detect. Most users:
+- Click on malicious links unknowingly  
+- Trust fake payment or delivery messages  
+- Lack tools to verify authenticity in real time  
 
-## Expanding the ESLint configuration
+There is a need for a simple, fast, and intelligent verification system.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 Solution
+TrustShield AI acts as a protective layer between users and potential threats by:
+- Analyzing URLs and messages for suspicious patterns  
+- Detecting phishing and scam indicators  
+- Generating a **Trust Score** (Safe / Warning / Dangerous)  
+- Warning users before they proceed  
+
+---
+
+## ⚙️ Key Features
+- 🔍 Real-time scam link detection  
+- 🧠 AI-based risk scoring system  
+- ⚠️ Instant warning alerts for unsafe inputs  
+- 🧾 URL and message verification support  
+- 📊 Simple trust score output for user clarity  
+- 💻 Lightweight and responsive React frontend  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React (Vite), JavaScript  
+- **Backend (optional):** Node.js, Express  
+- **Database (optional):** MongoDB  
+- **Logic Engine:** Custom rule-based / AI model  
+
+---
+
+## 🔄 How It Works
+1. User enters a URL or message  
+2. System analyzes content for risk patterns  
+3. AI/logic engine evaluates threat level  
+4. A **Trust Score** is generated  
+5. User receives instant safety feedback  
+
+---
+
+## 📦 Installation & Setup
+Clone the repository:
+```bash
+git clone https://github.com/pragadeesh2504/TrustShield-Ai.git
+cd TrustShield-Ai/frontend
+npm install
+npm run dev
